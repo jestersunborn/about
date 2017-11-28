@@ -1,0 +1,23 @@
+{
+  "name": "about",
+  "version": "1.0.0",
+  "description": "About page for my personal web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "autoprefixer-cli -o ./dist/main.css ./styles/main.css -b 'last 10 versions'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestersunborn/about"
+  },
+  "author": "Serhiy Boreyko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jestersunborn/about/issues"
+  },
+  "homepage": "https://github.com/jestersunborn/about#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0"
+  }
+}
